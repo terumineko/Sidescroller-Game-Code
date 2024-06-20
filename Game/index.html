@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./sprites.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   
+        <title>Game Code</title>
+    </head>
+    <body>
+        <canvas id="gameCanvas"></canvas>
+        <div id="sprites">
+            <img id="player" src="./PlayerImgs/Ranger/idle_0.png">
+            <img id="map" src="./Background/Summer2.png">
+            <img id="enemyPurple" src="./Slimes/SlimeB1.png">
+            <img id="enemyOrange" src="./Slimes/SlimeO1.png">
+            <img id="enemyPink" src="./Slimes/SlimeP1.png">
+            <img id="enemyRed" src="./Slimes/SlimeR1.png">
+            <img id="enemyTeal" src="./Slimes/SlimeT1.png">
+            <img id="bullet" src="./PlayerImgs/Ranger/GreenArrow.png">
+            <img class="Ranger_WalkSprite" src="./PlayerImgs/Ranger/RangerWalkingSpriteF.png">
+            <img class="Char_Shadow" src="./PlayerImgs/Ranger/Shadow.png">
+            <img id="playerDamage" src="./PlayerImgs/Ranger/playerDamage.png">
+        </div>
+        <p id="scoreDiv">Score: <span id="score">0</span></p>
+        <div id="healthDiv">
+        </div>
+
+        <script src="main.js" type="module"></script>
+    </body>
+</html>
